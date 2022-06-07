@@ -1,0 +1,88 @@
+﻿@model grouptest.Models.Loan
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+@section Stylesheets {
+    <style type="text/css"> 
+        h1{
+            font-weight:bolder;
+            font-family: poppin;
+        }
+        .main{
+            text-align:center;
+            
+        }
+    </style>
+    
+}
+
+<div class="main">
+    <h1 class="display-1">Edit Loan</h1>
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="LoanNumber" />
+                <div class="form-group ">
+                    <label asp-for="LoanTypee" class="control-label"></label>
+                    <select asp-for="LoanTypee" class="form-control" asp-items="ViewBag.LoanTypee"></select>
+                    <span asp-validation-for="LoanTypee" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <label asp-for="LoanTypee" class="control-label">Current Loan Type: </label>
+                    <input asp-for="LoanTypee" class="form-control" readonly="readonly">
+                </div>
+
+                <div class="form-group mt-4">
+                    <label asp-for="MemberLastname" class="control-label"></label>
+                    <select asp-for="MemberLastname" class="form-control" asp-items="ViewBag.MemberLastname"></select>
+                    <span asp-validation-for="MemberLastname" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-4">
+                    <label asp-for="MemberLastname" class="control-label">Current Member LastName: </label>
+                    <input asp-for="MemberLastname" class="form-control" readonly="readonly">
+                </div>
+                <div class="form-group mt-4">
+                    <label asp-for="CopyNumber" class="control-label"></label>
+                    <select asp-for="CopyNumber" class="form-control" asp-items="ViewBag.CopyNumber"></select>
+                    <span asp-validation-for="CopyNumber" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mt-4">
+                    <label asp-for="CopyNumber" class="control-label">Current CopyNumber: </label>
+                    <input asp-for="CopyNumber" class="form-control" readonly="readonly">
+                </div>
+                <div class="form-group mt-4">
+                    <label asp-for="DateOut" class="control-label"></label>
+                    <input asp-for="DateOut" class="form-control" />
+                    <span asp-validation-for="DateOut" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <label asp-for="DateDue" class="control-label"></label>
+                    <input asp-for="DateDue" class="form-control" />
+                    <span asp-validation-for="DateDue" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <label asp-for="DateReturn" class="control-label"></label>
+                    <input asp-for="DateReturn" class="form-control" />
+                    <span asp-validation-for="DateReturn" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index"><button class="btn bg-secondary text-light mt-4"><i class="bi bi-box-arrow-in-left"></i> Back to List</button></a>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<grouptest.Models.ViewModels.DvdCopiesViewModel>
+
+@{
+    ViewData["Title"] = "FunctionTen";
+}
+
+<h1>Funtction Ten</h1>
+
+<h4>List of all the copies which are more than a year old</h4>
+
+<table class="table table-bordered table-striped mt-4">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CopyNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DatePurchased)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CopyNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DatePurchased)
+            </td>
+            <td>
+                <a asp-action="DeleteExpired" asp-route-id="@item.CopyNumber"><button class="btn2 bg-danger text-light"><i class="bi bi-archive-fill"></i> Delete</button></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

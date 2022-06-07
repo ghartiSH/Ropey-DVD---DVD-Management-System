@@ -1,0 +1,44 @@
+﻿@model IEnumerable<grouptest.Models.ViewModels.DvdViewModel>
+
+@{
+    ViewData["Title"] = "FunctionOneView";
+}
+
+<h1>All the DVDs casted by the selected actor are: </h1>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ActorSurname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DvdNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DvdTitleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateReleased)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActorSurname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DvdNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DvdTitleName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateReleased)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

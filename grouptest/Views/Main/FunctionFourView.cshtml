@@ -1,0 +1,70 @@
+﻿@model IEnumerable<grouptest.Models.ViewModels.DvdViewModel>
+
+@{
+    ViewData["Title"] = "FunctionFourView";
+}
+
+<h1>FunctionFourView</h1>
+
+<h4>List of Producer, Studio, Cast of all DVDs in the shop </h4>
+
+<table class="table table-bordered table-striped mt-4">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ActorSurname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DvdTitleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateReleased)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudioNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudioName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProducerNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProducerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NoOfCopies)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActorSurname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DvdTitleName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateReleased)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudioNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudioName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProducerNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProducerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoOfCopies)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

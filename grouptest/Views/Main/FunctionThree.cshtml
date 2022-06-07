@@ -1,0 +1,40 @@
+﻿@model grouptest.Models.Member
+
+@{
+    ViewData["Title"] = "FunctionThree";
+}
+
+@section Stylesheets {
+    <style type="text/css"> 
+        h1{
+            font-weight:bolder;
+            font-family: poppin;
+        }
+        .main{
+            text-align:center;    
+        }
+    </style>
+    
+}
+<div class="main">
+    <h1>Function Three</h1>
+
+    <h4>Select the member number you like to see thet loaned DVDs list </h4>
+    <hr />
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
+            <form asp-action="FunctionThree">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="MemberNumber" class="control-label"></label>
+                    <select asp-for="MemberNumber" class ="form-control" asp-items="ViewBag.MemberNumber"></select>
+                </div>
+                <div class="form-group mt-4">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+

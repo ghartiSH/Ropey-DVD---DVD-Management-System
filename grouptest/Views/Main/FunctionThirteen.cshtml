@@ -1,0 +1,46 @@
+﻿@model IEnumerable<grouptest.Models.ViewModels.LoanModelView>
+
+@{
+    ViewData["Title"] = "FunctionThirteen";
+}
+
+<h1>Function Thirteen</h1>
+
+<h4>List of all DVD titles which is not loaned in last 31 days</h4>
+
+<table class="table table-bordered table-striped mt-4">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CopyNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DvdTitleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOut)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NoOfDays)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CopyNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DvdTitleName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOut)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoOfDays)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

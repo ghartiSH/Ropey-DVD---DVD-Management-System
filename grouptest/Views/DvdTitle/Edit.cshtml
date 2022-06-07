@@ -1,0 +1,94 @@
+﻿@model grouptest.Models.DvdTitle
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+@section Stylesheets {
+    <style type="text/css"> 
+        h1{
+            font-weight:bolder;
+            font-family: poppin;
+        }
+        .main{
+            text-align:center;
+            
+        }
+    </style>
+    
+}
+
+<div class="main">
+    <h1 class="display-1">Edit DvdTitle</h1>
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="DvdNumber" />
+                <div class="form-group">
+                    <label asp-for="DvdTitleName" class="control-label"></label>
+                    <input asp-for="DvdTitleName" class="form-control" />
+                    <span asp-validation-for="DvdTitleName" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <label asp-for="StudioName" class="control-label">Update StudioName:</label>
+                    <select asp-for="StudioName" class="form-control" asp-items="ViewBag.StudioName"></select>
+                </div>
+
+                <div class="form-group mt-4">
+                    <label class="control-label">Selected StudioName: </label>
+                    <input asp-for="StudioName" class="form-control" readonly="readonly"/>
+                </div>
+
+                <div class="form-group mt-4">
+                    <label asp-for="ProducerName" class="control-label">Update ProducerName:</label>
+                    <select asp-for="ProducerName" class="form-control" asp-items="ViewBag.ProducerName"></select>
+                
+                </div>
+
+                <div class="form-group mt-4">
+                    <label class="control-label">Selected ProducerName: </label>
+                    <input asp-for="ProducerName" class="form-control" readonly="readonly"/>
+                </div>
+
+                <div class="form-group mt-4">
+                    <label asp-for="CategoryName" class="control-label">Update Category:</label>
+                    <select asp-for="CategoryName" class="form-control" asp-items="ViewBag.CategoryName"></select>
+                </div>
+
+                <div class="form-group mt-4">
+                    <label class="control-label">Chosen Category: </label>
+                    <input asp-for="CategoryName" class="form-control" readonly="readonly"/>
+                </div>
+
+                <div class="form-group mt-4">
+                    <label asp-for="DateReleased" class="control-label"></label>
+                    <input asp-for="DateReleased" class="form-control" />
+                    <span asp-validation-for="DateReleased" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <label asp-for="StandardCharge" class="control-label"></label>
+                    <input asp-for="StandardCharge" class="form-control" />
+                    <span asp-validation-for="StandardCharge" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <label asp-for="PenaltyCharge" class="control-label"></label>
+                    <input asp-for="PenaltyCharge" class="form-control" />
+                    <span asp-validation-for="PenaltyCharge" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index"><button class="btn bg-secondary text-light mt-4"><i class="bi bi-box-arrow-in-left"></i> Back to List</button></a>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

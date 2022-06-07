@@ -1,0 +1,264 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = grouptest
+build_property.RootNamespace = grouptest
+build_property.ProjectDir = C:\Users\bhara\Desktop\Final AD\GroupCW\grouptest\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\bhara\Desktop\Final AD\GroupCW\grouptest
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Actor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Actor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Actor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Authentication/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Authentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Authentication/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Authentication/RegisterAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cUmVnaXN0ZXJBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Authentication/RegisterUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cUmVnaXN0ZXJVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Authentication/UnauthorizedAccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cVW5hdXRob3JpemVkQWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Authentication/UserDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cVXNlckRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Cast/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Cast/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Cast/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/DvdCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHZkQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/DvdCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHZkQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/DvdCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHZkQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/DvdCopy/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHZkQ29weVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/DvdCopy/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHZkQ29weVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/DvdCopy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHZkQ29weVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/DvdTitle/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHZkVGl0bGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/DvdTitle/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHZkVGl0bGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/DvdTitle/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHZkVGl0bGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/LoanType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/LoanType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/LoanType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblR5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Loan/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Loan/DisplayCharge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxEaXNwbGF5Q2hhcmdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Loan/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Loan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Main/FunctionEight.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxGdW5jdGlvbkVpZ2h0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Main/FunctionEleven.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxGdW5jdGlvbkVsZXZlbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Main/FunctionFive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxGdW5jdGlvbkZpdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Main/FunctionFiveView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxGdW5jdGlvbkZpdmVWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Main/FunctionFourView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxGdW5jdGlvbkZvdXJWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Main/FunctionOne.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxGdW5jdGlvbk9uZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Main/FunctionOneView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxGdW5jdGlvbk9uZVZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Main/FunctionTen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxGdW5jdGlvblRlbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Main/FunctionThirteen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxGdW5jdGlvblRoaXJ0ZWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Main/FunctionThree.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxGdW5jdGlvblRocmVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Main/FunctionThreeView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxGdW5jdGlvblRocmVlVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Main/FunctionTwelve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxGdW5jdGlvblR3ZWx2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Main/FunctionTwo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxGdW5jdGlvblR3by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Main/FunctionTwoView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxGdW5jdGlvblR3b1ZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Membership/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Membership/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Membership/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc2hpcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Members/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Members/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Members/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Producer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Producer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Producer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Studio/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGlvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Studio/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGlvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Studio/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGlvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bhara/Desktop/Final AD/GroupCW/grouptest/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-z59lo30kpm

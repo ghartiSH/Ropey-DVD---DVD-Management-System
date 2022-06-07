@@ -1,0 +1,51 @@
+﻿@model grouptest.Models.DvdCopy
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@section Stylesheets {
+    <style type="text/css"> 
+        h1{
+            font-weight:bolder;
+            font-family: poppin;
+        }
+        .main{
+            text-align:center;
+            
+        }
+    </style>
+    
+}
+
+<div class="main">
+    <h1 class="display-1">Create DvdCopy</h1>
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="DvdTitleName" class="control-label"></label>
+                    <select asp-for="DvdTitleName" class ="form-control" asp-items="ViewBag.DvdTitleName"></select>
+                </div>
+                <div class="form-group mt-4">
+                    <label asp-for="DatePurchased" class="control-label"></label>
+                    <input asp-for="DatePurchased" class="form-control" />
+                    <span asp-validation-for="DatePurchased" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index"><button class="btn bg-secondary text-light mt-4"><i class="bi bi-box-arrow-in-left"></i> Back to List</button></a>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

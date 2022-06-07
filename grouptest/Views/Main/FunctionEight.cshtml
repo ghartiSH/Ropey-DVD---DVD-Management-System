@@ -1,0 +1,57 @@
+﻿@model IEnumerable<grouptest.Models.ViewModels.LoanModelView>
+
+@{
+    ViewData["Title"] = "FunctionEight";
+}
+
+<h1>FunctionEight</h1>
+<h4>List of all the members with all their details</h4>
+
+<table class="table table-bordered table-striped mt-4">
+    <thead class="table-dark"   >
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MemberNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MemberLastname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MemberFirstname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalLoans)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MemberShipID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MembershipCategoryTotalLoans)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MemberNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MemberLastname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MemberFirstname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalLoans)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MemberShipID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MembershipCategoryTotalLoans)
+            </td
+        </tr>
+}
+    </tbody>
+</table>

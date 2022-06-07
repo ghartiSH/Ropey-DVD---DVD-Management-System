@@ -1,0 +1,43 @@
+﻿@model IEnumerable<grouptest.Models.ViewModels.DvdViewModel>
+
+@{
+    ViewData["Title"] = "FunctionTwoView";
+}
+
+<h1>FunctionTwoView</h1>
+<table class="tabletable-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ActorNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DvdNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DvdTitleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NoOfCopies)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActorNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DvdNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DvdTitleName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoOfCopies)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

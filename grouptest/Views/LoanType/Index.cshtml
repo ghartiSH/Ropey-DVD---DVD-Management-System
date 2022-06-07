@@ -1,0 +1,40 @@
+﻿@model IEnumerable<grouptest.Models.LoanType>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="display-1">LoanType Index</h1>
+
+<p>
+    <a asp-action="Create"><button class="btn bg-secondary text-light">Create New</button></a>
+</p>
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LoanTypee)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoanDuration)
+            </th>
+            <th></th>
+        </tr>
+    </thea>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoanTypee)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoanDuration)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.LoanTypeNumber"><button class="btn1 bg-success text-light"><i class="bi bi-pencil-square"></i> Edit</button></a> |
+                <a asp-action="Delete" asp-route-id="@item.LoanTypeNumber"><button class="btn2 bg-danger text-light"><i class="bi bi-archive-fill"></i> Delete</button></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

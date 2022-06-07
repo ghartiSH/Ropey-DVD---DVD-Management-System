@@ -1,0 +1,80 @@
+﻿@model IEnumerable<grouptest.Models.DvdTitle>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@section Stylesheets {
+    <style type="text/css"> 
+        h1{
+            font-weight:bolder;
+            font-family: poppin;
+        }
+    </style>
+    
+}
+
+<h1 class="display-1">DvdTitle Index</h1>
+
+<p>
+    <a asp-action="Create"><button class="btn bg-secondary text-light">Create New</button></a>
+</p>
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DvdTitleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StudioName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProducerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateReleased)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StandardCharge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PenaltyCharge)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DvdTitleName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudioName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProducerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateReleased)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StandardCharge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PenaltyCharge)
+            </td>
+            <td class="text-center">
+                <a asp-action="Edit" asp-route-id="@item.DvdNumber"><button class="btn1 bg-success text-light"><i class="bi bi-pencil-square"></i> Edit</button></a>
+                <a asp-action="Delete" asp-route-id="@item.DvdNumber"><button class="btn2 bg-danger text-light"><i class="bi bi-archive-fill"></i> Delete</button></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

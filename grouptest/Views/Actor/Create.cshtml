@@ -1,0 +1,53 @@
+﻿@model grouptest.Models.Actor
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@section Stylesheets {
+    <style type="text/css"> 
+        h1{
+            font-weight:bolder;
+            font-family: poppin;
+        }
+        .main{
+            text-align:center;
+            
+        }
+    </style>
+    
+}
+
+
+<div class="main">
+    <h1 class="display-1">Create Actor</h1>
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="ActorSurname" class="control-label"></label>
+                    <input asp-for="ActorSurname" class="form-control" />
+                    <span asp-validation-for="ActorSurname" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <label asp-for="ActorFirstName" class="control-label"></label>
+                    <input asp-for="ActorFirstName" class="form-control" />
+                    <span asp-validation-for="ActorFirstName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary mt-4"><i class="bi bi-box-arrow-in-right"></i> Create</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+        <a asp-action="Index"><button class="btn bg-secondary text-light mt-4"><i class="bi bi-box-arrow-in-left"></i> Back to List</button></a>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

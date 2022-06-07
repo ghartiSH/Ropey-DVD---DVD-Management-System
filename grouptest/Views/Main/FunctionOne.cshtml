@@ -1,0 +1,39 @@
+﻿@model grouptest.Models.ViewModels.DvdViewModel
+
+@{
+    ViewData["Title"] = "FunctionOne";
+}
+
+@section Stylesheets {
+    <style type="text/css"> 
+        h1{
+            font-weight:bolder;
+            font-family: poppin;
+        }
+        .main{
+            text-align:center;    
+        }
+    </style>
+    
+}
+
+<div class="main">
+    <h1>Function One</h1>
+    <h2> Select the Actor you like to see the stocked DVD details </h2>
+    <hr />
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
+            <form asp-action="FunctionOne">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="ActorSurname" class="control-label"></label>
+                    <select asp-for="ActorSurname" class ="form-control" asp-items="ViewBag.ActorSurname"></select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Search" class="btn btn-primary mt-4" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
